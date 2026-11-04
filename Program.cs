@@ -1,10 +1,14 @@
-﻿namespace EntityFrameWorkAssignment02
+﻿using EntityFrameWorkAssignment02.Contexts;
+
+namespace EntityFrameWorkAssignment02
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            using EventHubContext context = new EventHubContext();
+
+          
         }
     }
 }
